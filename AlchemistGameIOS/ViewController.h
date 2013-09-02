@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIWebViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UIWebView *mainWebVIew;
+@property (retain, atomic) AVAudioPlayer *soundtrackPlayer;
+@property (retain, atomic) AVAudioPlayer *successPlayer;
+@property (retain, atomic) AVAudioPlayer *slidePlayer;
 
 @end
