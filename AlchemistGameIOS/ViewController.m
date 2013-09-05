@@ -27,6 +27,7 @@
     mainWebVIew.delegate = self;
     mainWebVIew.scalesPageToFit = YES;
     mainWebVIew.frame=self.view.bounds;
+    mainWebVIew.scrollView.scrollEnabled = NO;
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"html" inDirectory:@"alchemist-game"]];
     [mainWebVIew loadRequest:[NSURLRequest requestWithURL:url]];
     
