@@ -10,7 +10,6 @@
 		D9450F5B17D3B938009478FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9450F5A17D3B938009478FC /* UIKit.framework */; };
 		D9450F5D17D3B938009478FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9450F5C17D3B938009478FC /* Foundation.framework */; };
 		D9450F5F17D3B938009478FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9450F5E17D3B938009478FC /* CoreGraphics.framework */; };
-		D9450F6517D3B938009478FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9450F6317D3B938009478FC /* InfoPlist.strings */; };
 		D9450F6717D3B938009478FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9450F6617D3B938009478FC /* main.m */; };
 		D9450F6B17D3B938009478FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9450F6A17D3B938009478FC /* AppDelegate.m */; };
 		D9450F6D17D3B938009478FC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D9450F6C17D3B938009478FC /* Default.png */; };
@@ -18,8 +17,10 @@
 		D9450F7117D3B938009478FC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9450F7017D3B938009478FC /* Default-568h@2x.png */; };
 		D9450F7417D3B938009478FC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9450F7217D3B938009478FC /* MainStoryboard.storyboard */; };
 		D9450F7717D3B938009478FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9450F7617D3B938009478FC /* ViewController.m */; };
+		D95C21C417D944D900EB852A /* ICON_144.png in Resources */ = {isa = PBXBuildFile; fileRef = D95C21C317D944D900EB852A /* ICON_144.png */; };
+		D95C21C617D944DD00EB852A /* ICON_72.png in Resources */ = {isa = PBXBuildFile; fileRef = D95C21C517D944DD00EB852A /* ICON_72.png */; };
 		D9BE6B0417D409A400EB9EFB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BE6B0317D409A400EB9EFB /* AVFoundation.framework */; };
-		D9BE6B0617D40DD700EB9EFB /* alchemist-game in Resources */ = {isa = PBXBuildFile; fileRef = D9BE6B0517D40DD700EB9EFB /* alchemist-game */; };
+		D9F4D35717D7F1B500C40D7D /* alchemist-game in Resources */ = {isa = PBXBuildFile; fileRef = D9F4D35617D7F1B500C40D7D /* alchemist-game */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +28,6 @@
 		D9450F5A17D3B938009478FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D9450F5C17D3B938009478FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9450F5E17D3B938009478FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D9450F6217D3B938009478FC /* AlchemistGameIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AlchemistGameIOS-Info.plist"; sourceTree = "<group>"; };
-		D9450F6417D3B938009478FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9450F6617D3B938009478FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9450F6817D3B938009478FC /* AlchemistGameIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AlchemistGameIOS-Prefix.pch"; sourceTree = "<group>"; };
 		D9450F6917D3B938009478FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,8 +38,10 @@
 		D9450F7317D3B938009478FC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D9450F7517D3B938009478FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D9450F7617D3B938009478FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D95C21C317D944D900EB852A /* ICON_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICON_144.png; sourceTree = "<group>"; };
+		D95C21C517D944DD00EB852A /* ICON_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ICON_72.png; sourceTree = "<group>"; };
 		D9BE6B0317D409A400EB9EFB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		D9BE6B0517D40DD700EB9EFB /* alchemist-game */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "alchemist-game"; path = "../../../alchemist-game"; sourceTree = "<group>"; };
+		D9F4D35617D7F1B500C40D7D /* alchemist-game */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "alchemist-game"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,8 @@
 		D9450F4E17D3B938009478FC = {
 			isa = PBXGroup;
 			children = (
+				D95C21C517D944DD00EB852A /* ICON_72.png */,
+				D95C21C317D944D900EB852A /* ICON_144.png */,
 				D9450F6017D3B938009478FC /* AlchemistGameIOS */,
 				D9450F5917D3B938009478FC /* Frameworks */,
 				D9450F5817D3B938009478FC /* Products */,
@@ -102,9 +105,7 @@
 		D9450F6117D3B938009478FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D9BE6B0517D40DD700EB9EFB /* alchemist-game */,
-				D9450F6217D3B938009478FC /* AlchemistGameIOS-Info.plist */,
-				D9450F6317D3B938009478FC /* InfoPlist.strings */,
+				D9F4D35617D7F1B500C40D7D /* alchemist-game */,
 				D9450F6617D3B938009478FC /* main.m */,
 				D9450F6817D3B938009478FC /* AlchemistGameIOS-Prefix.pch */,
 				D9450F6C17D3B938009478FC /* Default.png */,
@@ -165,12 +166,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9450F6517D3B938009478FC /* InfoPlist.strings in Resources */,
 				D9450F6D17D3B938009478FC /* Default.png in Resources */,
 				D9450F6F17D3B938009478FC /* Default@2x.png in Resources */,
 				D9450F7117D3B938009478FC /* Default-568h@2x.png in Resources */,
 				D9450F7417D3B938009478FC /* MainStoryboard.storyboard in Resources */,
-				D9BE6B0617D40DD700EB9EFB /* alchemist-game in Resources */,
+				D9F4D35717D7F1B500C40D7D /* alchemist-game in Resources */,
+				D95C21C417D944D900EB852A /* ICON_144.png in Resources */,
+				D95C21C617D944DD00EB852A /* ICON_72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,14 +192,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D9450F6317D3B938009478FC /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9450F6417D3B938009478FC /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		D9450F7217D3B938009478FC /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
